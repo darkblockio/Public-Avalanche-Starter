@@ -6,7 +6,7 @@ import { collection } from "../utils/collection";
 import { Loading } from "../components/Loading";
 import { Web3Context } from "../context/Web3Context";
 
-const platform = 'Tezos'
+const platform = 'Avalanche'
 
 export default function Home() {
   const [myNfts, setMyNfts] = useState([]);

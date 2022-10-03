@@ -2,13 +2,14 @@ import Link from 'next/link'
 import React, { useContext } from 'react'
 import { shortenAddr } from '../utils/shortAddress'
 import { Web3Context } from '../context/Web3Context'
+import Web3 from 'web3'
 
 const Header = () => {
-  const { address, connect, disconnect } = useContext(Web3Context)
+  const { address, connect } = useContext(Web3Context)
 
   const handleConnect = () => {
     if (address && address !== '') {
-      disconnect()
+      //disconnect()
     } else {
       connect()
     }
