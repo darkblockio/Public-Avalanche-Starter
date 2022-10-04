@@ -33,8 +33,7 @@ export const Web3Provider = ({ children }) => {
 
     const getAndSetAccount = async () => {
       const changedAccounts = await window.ethereum.request({
-        method: 'wallet_switchEthereumChain',
-        params: [{ chainId: chainValues.hex }],
+        method: 'eth_requestAccounts',
       })
       
       setWallet(null)
@@ -86,6 +85,12 @@ export const Web3Provider = ({ children }) => {
 
     if (window.ethereum) {
       window.web3 = new Web3(window.ethereum)
+      
+      await window.ethereum.request({
+        method: 'wallet_switchEthereumChain',
+        params: [{ chainId: chainValues.hex }],
+      })
+
       try {
         // Request account access if needed
         await window.ethereum.enable()

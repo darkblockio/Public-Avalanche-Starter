@@ -26,7 +26,7 @@ const NftDetailCard = () => {
   const contract = router.query.params ? router.query.params[0] : null
   const id = router.query.params ? router.query.params[1] : null
   const [nftData, setNftData] = useState(null)
-  const { provider } = useContext(Web3Context)
+  const {wallet} = useContext(Web3Context)
   const [isLoading, setIsLoading] = useState(false)
 
   useEffect(() => {
@@ -68,11 +68,11 @@ const NftDetailCard = () => {
                   {
                     //be sure font color is dark, NPM brings a white background 
                     <div className="flex justify-end py-3 text-gray-800">
-                      <AvaxWidget contract={nftData.contract} id={nftData.token} wa={provider} upgrade={true} />
+                      <AvaxWidget contract={nftData.contract} id={nftData.token} w3={wallet} upgrade={true} />
                     </div>
                   }
 
-                  {<AvaxWidget contract={nftData.contract} id={nftData.token} wa={provider} />}
+                  {<AvaxWidget contract={nftData.contract} id={nftData.token} w3={wallet} />}
                 </div>
               </div>
             </div>
