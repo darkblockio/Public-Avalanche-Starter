@@ -40,19 +40,20 @@ const cbUpgrade = (param1) => {
 
 const apiKey = process.env.NEXT_PUBLIC_REACT_APP_API_KEY
 
-export const AvaxWidget = ({ id, contract, wa, upgrade = false }) => {
+export const AvaxWidget = ({ id, contract, w3, upgrade = false , network ='mainnet'}) => {
   if (upgrade) {
     return (
       <AvalancheUpgradeWidget
         apiKey={apiKey}
         contractAddress={contract}
         tokenId={id}
-        wa={wa}
+        w3={w3}
         cb={cbUpgrade}
         config={config}
+        network={network}
       />
     )
   } else {
-    return <AvalancheDarkblockWidget contractAddress={contract} tokenId={id} wa={wa} cb={cb} config={config} />
+    return <AvalancheDarkblockWidget contractAddress={contract} tokenId={id} w3={w3} cb={cb} config={config} network={network} />
   }
 }
