@@ -33,7 +33,7 @@ const Header = () => {
           <div className="items-center justify-end space-x-4 md:inline-flex">
             <button
               className="h-12 px-4 py-2 text-base text-fontColor border rounded bg-primary border-terciary hover:border-fontColor"
-              onClick={ handleConnect }
+              onClick={ connect }
             >
               {address && address !== '' ? shortenAddr(address) : 'Connect Wallet'}
             </button>

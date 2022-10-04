@@ -1,18 +1,18 @@
 import dynamic from 'next/dynamic'
 import Router from 'next/router'
 
-const TezosDarkblockWidget = dynamic(
+const AvalancheDarkblockWidget = dynamic(
   () =>
-    import('@darkblock.io/tez-widget').then((mod) => {
-      return mod.TezosDarkblockWidget
+    import('@darkblock.io/avax-widget').then((mod) => {
+      return mod.AvalancheDarkblockWidget
     }),
   { ssr: false }
 )
 
-const TezosUpgradeWidget = dynamic(
+const AvalancheUpgradeWidget = dynamic(
   () =>
-    import('@darkblock.io/tez-widget').then((mod) => {
-      return mod.TezosUpgradeWidget
+    import('@darkblock.io/avax-widget').then((mod) => {
+      return mod.AvalancheUpgradeWidget
     }),
   { ssr: false }
 )
@@ -40,10 +40,10 @@ const cbUpgrade = (param1) => {
 
 const apiKey = process.env.NEXT_PUBLIC_REACT_APP_API_KEY
 
-export const TezWidget = ({ id, contract, wa, upgrade = false }) => {
+export const AvaxWidget = ({ id, contract, wa, upgrade = false }) => {
   if (upgrade) {
     return (
-      <TezosUpgradeWidget
+      <AvalancheUpgradeWidget
         apiKey={apiKey}
         contractAddress={contract}
         tokenId={id}
@@ -53,6 +53,6 @@ export const TezWidget = ({ id, contract, wa, upgrade = false }) => {
       />
     )
   } else {
-    return <TezosDarkblockWidget contractAddress={contract} tokenId={id} wa={wa} cb={cb} config={config} />
+    return <AvalancheDarkblockWidget contractAddress={contract} tokenId={id} wa={wa} cb={cb} config={config} />
   }
 }

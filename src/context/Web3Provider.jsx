@@ -6,6 +6,11 @@ export const Web3Provider = ({ children }) => {
 
   const [wallet, setWallet] = useState()
   const [address, setAddress] = useState()
+  
+  const chainValues = {
+    int: 43114,
+    hex: '0xa86a',
+  }
 
   useEffect(() => {
     if (!window.ethereum) {
@@ -28,8 +33,10 @@ export const Web3Provider = ({ children }) => {
 
     const getAndSetAccount = async () => {
       const changedAccounts = await window.ethereum.request({
-        method: 'eth_requestAccounts',
+        method: 'wallet_switchEthereumChain',
+        params: [{ chainId: chainValues.hex }],
       })
+      
       setWallet(null)
       setTimeout(() => {
         if (changedAccounts[0]) {
