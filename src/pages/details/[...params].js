@@ -6,7 +6,7 @@ import { dateTimeFormat } from '../../utils/dateFormatter'
 import { shortenAddr } from '../../utils/shortAddress'
 import { useRouter } from 'next/router'
 import { Web3Context } from '../../context/Web3Context'
-import { TezWidget } from '../../components/TezWidget'
+import { AvaxWidget } from '../../components/AvaxWidget'
 import { Loading } from '../../components/Loading'
 
 const countAttribs = (nft) => {
@@ -19,7 +19,7 @@ const countAttribs = (nft) => {
   return count
 }
 
-const platform = 'Tezos'
+const platform = 'Avalanche'
 
 const NftDetailCard = () => {
   const router = useRouter()
@@ -28,7 +28,6 @@ const NftDetailCard = () => {
   const [nftData, setNftData] = useState(null)
   const { provider } = useContext(Web3Context)
   const [isLoading, setIsLoading] = useState(false)
-  console.log(nftData, 'dataaaaaaa')
 
   useEffect(() => {
     if (id && contract && id !== undefined && contract !== undefined) {
@@ -69,11 +68,11 @@ const NftDetailCard = () => {
                   {
                     //be sure font color is dark, NPM brings a white background 
                     <div className="flex justify-end py-3 text-gray-800">
-                      <TezWidget contract={nftData.contract} id={nftData.token} wa={provider} upgrade={true} />
+                      <AvaxWidget contract={nftData.contract} id={nftData.token} wa={provider} upgrade={true} />
                     </div>
                   }
 
-                  {<TezWidget contract={nftData.contract} id={nftData.token} wa={provider} />}
+                  {<AvaxWidget contract={nftData.contract} id={nftData.token} wa={provider} />}
                 </div>
               </div>
             </div>
