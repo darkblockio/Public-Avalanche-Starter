@@ -1,9 +1,9 @@
-<h1>Next Ethereum</h1>
+<h1>Next Avalanche</h1>
 <h3>Hey Newbie &#128075;</h3>
 <h4>Open this in preview mode for the best experience</h4>
 <hr>
 <h2>Intro:</h2>
-<h3>We are going to clone a simple web app of nfts using Next and our Ethereum widget.</h3>
+<h3>We are going to clone a simple web app of nfts using Next and our Avalanche widget.</h3>
 <h3>
 <a href="https://nextjs.org/docs">Check out the Next documents here </a>and follow the open-source documentation to create and deploy your site along with the documentation we have provided.</h3><hr>
 <h2>Clone</h2><br>
@@ -66,10 +66,10 @@ NEXT_PUBLIC_REACT_APP_API_KEY= yourApikey
 npm run dev
 ```
 
-<h3>Refresh your page and you will need to log into your Ethereum wallet.</h3>
+<h3>Refresh your page and you will need to log into your Avalanche wallet.</h3>
 <br>
 
-<h3>And then you have the <strong>Darkblock Ethereum Widget</strong> working!!!	&#x1f609; Congrats.</h3><br>
+<h3>And then you have the <strong>Darkblock Avalanche Widget</strong> working!!!	&#x1f609; Congrats.</h3><br>
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

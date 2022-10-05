@@ -7,7 +7,7 @@ export const collection = [
     token: "8639",
     creator_name: "Chikn",
     image:
-      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/8639",
+      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/8639.jpeg",
     is_darkblocked: false,
   },
   {
@@ -18,7 +18,7 @@ export const collection = [
     token: "410",
     creator_name: "Chikn",
     image:
-      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/410",
+      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/410.jpeg",
     is_darkblocked: false,
   },
 	{
@@ -29,7 +29,7 @@ export const collection = [
     token: "9892",
     creator_name: "Chikn",
     image:
-      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/9892",
+      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/9892.jpeg",
     is_darkblocked: false,
 	},
   {
@@ -40,7 +40,7 @@ export const collection = [
     token: "24",
     creator_name: "Chikn",
     image:
-      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/24",
+      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/24.jpeg",
     is_darkblocked: false,
   },
 	{
@@ -51,7 +51,7 @@ export const collection = [
     token: "5002",
     creator_name: "Chikn",
     image:
-      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/5002",
+      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/5002.jpeg",
     is_darkblocked: false,
 	},
 	{
@@ -62,7 +62,7 @@ export const collection = [
     token: "3671",
     creator_name: "Chikn",
     image:
-      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/3671",
+      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/3671.jpeg",
     is_darkblocked: false,
 	},
   {
@@ -84,7 +84,7 @@ export const collection = [
     token: "6628",
     creator_name: "Chikn",
     image:
-      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/6628",
+      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/6628.jpeg",
     is_darkblocked: false,
   },
   {
@@ -95,7 +95,7 @@ export const collection = [
     token: "3792",
     creator_name: "Chikn",
     image:
-      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/3792",
+      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/3792.jpeg",
     is_darkblocked: false,
   },
   {
@@ -106,7 +106,7 @@ export const collection = [
     token: "10000",
     creator_name: "Chikn",
     image:
-      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/10000",
+      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/10000.jpeg",
     is_darkblocked: false,
   },
   {
@@ -117,7 +117,7 @@ export const collection = [
     token: "9981",
     creator_name: "Chikn",
     image:
-      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/9981",
+      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/9981.jpeg",
     is_darkblocked: false,
   },
   {
@@ -128,7 +128,7 @@ export const collection = [
     token: "9999",
     creator_name: "Chikn",
     image:
-      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/9999",
+      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/9999.jpeg",
     is_darkblocked: false,
   },
   {
@@ -139,7 +139,7 @@ export const collection = [
     token: "9998",
     creator_name: "Chikn",
     image:
-      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/9998",
+      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/9998.jpeg",
     is_darkblocked: false,
   },
   {
@@ -150,7 +150,7 @@ export const collection = [
     token: "9997",
     creator_name: "Chikn",
     image:
-      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/9997",
+      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/9997.jpeg",
     is_darkblocked: false,
   },
   {
@@ -161,7 +161,7 @@ export const collection = [
     token: "9996",
     creator_name: "Chikn",
     image:
-      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/9996",
+      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/9996.jpeg",
     is_darkblocked: false,
   },
   {
@@ -172,7 +172,7 @@ export const collection = [
     token: "9995",
     creator_name: "Chikn",
     image:
-      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/9995",
+      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/9995.jpeg",
     is_darkblocked: false,
   },
   {
@@ -183,7 +183,7 @@ export const collection = [
     token: "9994",
     creator_name: "Chikn",
     image:
-      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/9994",
+      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/9994.jpeg",
     is_darkblocked: false,
   },
   {
@@ -194,7 +194,7 @@ export const collection = [
     token: "9993",
     creator_name: "Chikn",
     image:
-      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/9993",
+      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/9993.jpeg",
     is_darkblocked: false,
   },
   {
@@ -205,7 +205,7 @@ export const collection = [
     token: "9992",
     creator_name: "Chikn",
     image:
-      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/9992",
+      "https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/9992.jpeg",
     is_darkblocked: false,
   },
 ];
