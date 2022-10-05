@@ -48,12 +48,12 @@ export const collection = [
   {
     name: 'Volcano #5279',
     description: 'This Totem belongs to the volvano tribe.',
-    contract: '0xfd48de401e23f619a25a0edcf6d249216860fbe6',
-    creator_address: '0xfd48de401e23f619a25a0edcf6d249216860fbe6',
-    token: '2244',
+    contract: '0x6118c71850e5d7b18c2021a17bf897421336f909',
+    creator_address: '0x438cba7e454b59a9f897d4731fd3eaef37160c0a',
+    token: '1',
     creator_name: '',
     image:
-      'https://ipfs.io/ipfs/QmbnEiQLWsKK4rou2CdbEq4Cop4Ym5kHhevAhreFx2KvC2?filename=Volcano%20tribe.png',
+      'https://ipfs.io/ipfs/bafkreib2wuujnfvvyjfvrukgng6kuz2j2texwoekw74tq7kdsz2c5xy3rm/',
     is_darkblocked: true
   },
   {
