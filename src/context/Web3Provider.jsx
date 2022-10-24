@@ -1,12 +1,12 @@
-import { useEffect, useState } from "react"
-import { Web3Context } from "./Web3Context"
+import { useEffect, useState } from 'react'
+import { Web3Context } from './Web3Context'
 import Web3 from 'web3'
 
 export const Web3Provider = ({ children }) => {
-
   const [wallet, setWallet] = useState()
   const [address, setAddress] = useState()
-  
+
+  // Codes of the chain
   const chainValues = {
     int: 43114,
     hex: '0xa86a',
@@ -35,7 +35,7 @@ export const Web3Provider = ({ children }) => {
       const changedAccounts = await window.ethereum.request({
         method: 'eth_requestAccounts',
       })
-      
+
       setWallet(null)
       setTimeout(() => {
         if (changedAccounts[0]) {
@@ -43,7 +43,6 @@ export const Web3Provider = ({ children }) => {
           setAddress(changedAccounts[0])
         } else {
           setAddress('')
-
         }
       }, 0)
     }
@@ -79,13 +78,12 @@ export const Web3Provider = ({ children }) => {
     getAccount()
   }, [])
 
-
   const connect = async () => {
     const web3 = new Web3(window.web3.currentProvider)
 
     if (window.ethereum) {
       window.web3 = new Web3(window.ethereum)
-      
+
       await window.ethereum.request({
         method: 'wallet_switchEthereumChain',
         params: [{ chainId: chainValues.hex }],
@@ -116,9 +114,5 @@ export const Web3Provider = ({ children }) => {
     }
   }
 
-  return (
-    <Web3Context.Provider value={{ wallet, address, setAddress, connect}}>
-      { children }
-    </Web3Context.Provider>
-  )
+  return <Web3Context.Provider value={{ wallet, address, setAddress, connect }}>{children}</Web3Context.Provider>
 }

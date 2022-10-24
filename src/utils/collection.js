@@ -1,3 +1,4 @@
+// Put a nft collection into the array to show in the gallery page.
 export const collection = [
   {
     name: 'chikn #8639',
@@ -8,9 +9,9 @@ export const collection = [
     creator_name: 'Chikn',
     image:
       'https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/8639.jpeg',
-    is_darkblocked: false
+    is_darkblocked: false,
   },
- 
+
   {
     name: 'chikn #9892',
     description: 'Feeling a little blue',
@@ -20,7 +21,7 @@ export const collection = [
     creator_name: 'Chikn',
     image:
       'https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/9892.jpeg',
-    is_darkblocked: false
+    is_darkblocked: false,
   },
 
   {
@@ -32,7 +33,7 @@ export const collection = [
     creator_name: 'Chikn',
     image:
       'https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/5002.jpeg',
-    is_darkblocked: false
+    is_darkblocked: false,
   },
   {
     name: 'chikn #3671',
@@ -43,7 +44,7 @@ export const collection = [
     creator_name: 'Chikn',
     image:
       'https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/3671.jpeg',
-    is_darkblocked: false
+    is_darkblocked: false,
   },
   {
     name: 'Volcano #5279',
@@ -52,9 +53,8 @@ export const collection = [
     creator_address: '0x438cba7e454b59a9f897d4731fd3eaef37160c0a',
     token: '1',
     creator_name: '',
-    image:
-      'https://ipfs.io/ipfs/bafkreib2wuujnfvvyjfvrukgng6kuz2j2texwoekw74tq7kdsz2c5xy3rm/',
-    is_darkblocked: true
+    image: 'https://ipfs.io/ipfs/bafkreib2wuujnfvvyjfvrukgng6kuz2j2texwoekw74tq7kdsz2c5xy3rm/',
+    is_darkblocked: true,
   },
   {
     name: 'chikn #6628',
@@ -65,9 +65,9 @@ export const collection = [
     creator_name: 'Chikn',
     image:
       'https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/6628.jpeg',
-    is_darkblocked: false
+    is_darkblocked: false,
   },
- 
+
   {
     name: 'chikn #9999',
     description: 'Captain Chikn',
@@ -77,9 +77,9 @@ export const collection = [
     creator_name: 'Chikn',
     image:
       'https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/9999.jpeg',
-    is_darkblocked: false
+    is_darkblocked: false,
   },
- 
+
   {
     name: 'chikn #9997',
     description: 'Which mushrooms?',
@@ -89,7 +89,7 @@ export const collection = [
     creator_name: 'Chikn',
     image:
       'https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/9997.jpeg',
-    is_darkblocked: false
+    is_darkblocked: false,
   },
 
   {
@@ -101,7 +101,7 @@ export const collection = [
     creator_name: 'Chikn',
     image:
       'https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/9995.jpeg',
-    is_darkblocked: false
+    is_darkblocked: false,
   },
   {
     name: 'chikn #9994',
@@ -112,7 +112,7 @@ export const collection = [
     creator_name: 'Chikn',
     image:
       'https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/9994.jpeg',
-    is_darkblocked: false
+    is_darkblocked: false,
   },
 
   {
@@ -124,6 +124,6 @@ export const collection = [
     creator_name: 'Chikn',
     image:
       'https://img.joepegs.com/cdn-cgi/image/width=800,height=800/https://api.chikn.farm/api/chikn/image/9992.jpeg',
-    is_darkblocked: false
-  }
+    is_darkblocked: false,
+  },
 ]
