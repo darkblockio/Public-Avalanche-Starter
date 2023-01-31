@@ -72,9 +72,9 @@ NEXT_PUBLIC_REACT_APP_API_KEY = yourApikey
 npm run dev
 ```
 
-<h3>Refresh your page and you will need to log into your Ethereum wallet.</h3>
+<h3>Refresh your page and you will need to log into your Avalanche wallet.</h3>
 <br>
 
-<h3>And then you have the <strong>Darkblock Ethereum Widget</strong> working!!!	&#x1f609; Congrats.</h3><br>
+<h3>And then you have the <strong>Darkblock Avalanche Widget</strong> working!!!	&#x1f609; Congrats.</h3><br>
 
 <h2>Please join us in Discord <a href="https://discord.com/channels/832678301814095942/832678301814095945">here</a> for any bugs or extra information.</h2>
